@@ -12,7 +12,6 @@ namespace EmployeePortal.Repository
             this.db = dbContext;
         }
 
-
         public async Task<List<Employee>> GetEmployees()
         {
             return await db.Employees.ToListAsync();
