@@ -1,0 +1,64 @@
+<div class="container-fluid">
+    <div class="row-p2">
+        <div class="col-6">
+            <h3>Employee List</h3>
+        </div>
+        <div class="col-6 text-end">
+            <button class="btn btn-warning" (click)="openModel()"> Add Employee</button>
+        </div>
+    </div>
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Mobile</th>
+                <th>Age</th>
+                <th>Salary</th>
+                <th>Status</th>
+                <th class="text-center">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td>Baki</td>
+                    <td>baki.gmail.com</td>
+                    <td>01757837540</td>
+                    <td>30</td>
+                    <td>5000</td>
+                    <td>True</td>
+                    <td class="text-center">
+                        <button class="btn btn-primary"> Edit</button> ||
+                        <button class="btn btn-danger"> Delete</button>
+                    </td>
+                </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Modal Heading</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+          Modal body..
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
